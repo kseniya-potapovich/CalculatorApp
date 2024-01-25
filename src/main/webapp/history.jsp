@@ -9,7 +9,7 @@
 <hr>
 <br>
 <c:forEach var="h" items="${history}">
-    <p><h2 style="text-align: center"><c:out value="${h}"/></h2></p>
+    <h2 style="text-align: center"><c:out value="${h}"/></h2>
 </c:forEach>
 </body>
 </html>
